@@ -1,0 +1,14 @@
+{
+    "username":"test@gmail.com",
+    "password":"123",
+    "name":"test123",
+    "interest":["Cypress", "Java", "API"],
+    "gender":"Male",
+    "address":{
+
+                    "area" : "DKI",
+                    "city" : "jakarta",
+                    "pincode" : 556444
+                }
+
+}
