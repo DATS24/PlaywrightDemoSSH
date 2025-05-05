@@ -1,0 +1,15 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="9.284236000000034">
+<testsuite name="typescript\42_Mock_From_HAR_File.spec.ts" timestamp="2025-05-05T07:57:16.292Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.182" errors="0">
+<testcase name="Mock API from HAR in Playwright" classname="typescript\42_Mock_From_HAR_File.spec.ts" time="2.182">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\typescript-42_Mock_From_HA-1af7f--API-from-HAR-in-Playwright-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\typescript-42_Mock_From_HA-1af7f--API-from-HAR-in-Playwright-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\typescript-42_Mock_From_HA-1af7f--API-from-HAR-in-Playwright-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
