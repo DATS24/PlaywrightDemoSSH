@@ -1,13 +1,48 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="9.284236000000034">
-<testsuite name="typescript\42_Mock_From_HAR_File.spec.ts" timestamp="2025-05-05T07:57:16.292Z" hostname="chromium" tests="1" failures="0" skipped="0" time="2.182" errors="0">
-<testcase name="Mock API from HAR in Playwright" classname="typescript\42_Mock_From_HAR_File.spec.ts" time="2.182">
+<testsuites id="" name="" tests="4" failures="0" skipped="0" errors="0" time="5.880527">
+<testsuite name="typescript\13_grouping_test.spec.ts" timestamp="2025-05-05T10:41:31.215Z" hostname="chromium" tests="1" failures="0" skipped="0" time="1.908" errors="0">
+<testcase name="SmokeTesting › Test1" classname="typescript\13_grouping_test.spec.ts" time="1.908">
 <system-out>
 <![CDATA[
-[[ATTACHMENT|test-results\typescript-42_Mock_From_HA-1af7f--API-from-HAR-in-Playwright-chromium\test-finished-1.png]]
+[[ATTACHMENT|test-results\typescript-13_grouping_test-SmokeTesting-Test1-chromium\test-finished-1.png]]
 
-[[ATTACHMENT|test-results\typescript-42_Mock_From_HA-1af7f--API-from-HAR-in-Playwright-chromium\video.webm]]
+[[ATTACHMENT|test-results\typescript-13_grouping_test-SmokeTesting-Test1-chromium\video.webm]]
 
-[[ATTACHMENT|test-results\typescript-42_Mock_From_HA-1af7f--API-from-HAR-in-Playwright-chromium\trace.zip]]
+[[ATTACHMENT|test-results\typescript-13_grouping_test-SmokeTesting-Test1-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="typescript\14_tag_test.spec.ts" timestamp="2025-05-05T10:41:31.215Z" hostname="chromium" tests="3" failures="0" skipped="0" time="2.697" errors="0">
+<testcase name="Test1" classname="typescript\14_tag_test.spec.ts" time="1.899">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\typescript-14_tag_test-Test1-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\typescript-14_tag_test-Test1-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\typescript-14_tag_test-Test1-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test2" classname="typescript\14_tag_test.spec.ts" time="0.407">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\typescript-14_tag_test-Test2-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\typescript-14_tag_test-Test2-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\typescript-14_tag_test-Test2-chromium\trace.zip]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Test3" classname="typescript\14_tag_test.spec.ts" time="0.391">
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\typescript-14_tag_test-Test3-chromium\test-finished-1.png]]
+
+[[ATTACHMENT|test-results\typescript-14_tag_test-Test3-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\typescript-14_tag_test-Test3-chromium\trace.zip]]
 ]]>
 </system-out>
 </testcase>

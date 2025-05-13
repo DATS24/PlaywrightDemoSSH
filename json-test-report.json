@@ -11,7 +11,7 @@
     "grepInvert": null,
     "maxFailures": 0,
     "metadata": {
-      "actualWorkers": 1
+      "actualWorkers": 2
     },
     "preserveOutput": "always",
     "reporter": [
@@ -51,7 +51,7 @@
         "repeatEach": 1,
         "retries": 0,
         "metadata": {
-          "actualWorkers": 1
+          "actualWorkers": 2
         },
         "id": "chromium",
         "name": "chromium",
@@ -65,22 +65,90 @@
     ],
     "shard": null,
     "updateSnapshots": "missing",
-    "updateSourceMethod": "3way",
+    "updateSourceMethod": "patch",
     "version": "1.51.1",
     "workers": 2,
     "webServer": null
   },
   "suites": [
     {
-      "title": "typescript\\42_Mock_From_HAR_File.spec.ts",
-      "file": "typescript/42_Mock_From_HAR_File.spec.ts",
+      "title": "typescript\\13_grouping_test.spec.ts",
+      "file": "typescript/13_grouping_test.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "SmokeTesting",
+          "file": "typescript/13_grouping_test.spec.ts",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Test1",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "parallelIndex": 0,
+                      "status": "passed",
+                      "duration": 1908,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2025-05-05T10:41:32.885Z",
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "C:\\Users\\hp\\Documents\\Playwright\\test-results\\typescript-13_grouping_test-SmokeTesting-Test1-chromium\\test-finished-1.png"
+                        },
+                        {
+                          "name": "video",
+                          "contentType": "video/webm",
+                          "path": "C:\\Users\\hp\\Documents\\Playwright\\test-results\\typescript-13_grouping_test-SmokeTesting-Test1-chromium\\video.webm"
+                        },
+                        {
+                          "name": "trace",
+                          "contentType": "application/zip",
+                          "path": "C:\\Users\\hp\\Documents\\Playwright\\test-results\\typescript-13_grouping_test-SmokeTesting-Test1-chromium\\trace.zip"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "e7d097f16636f6ac6cfc-6a0fd6d164fc05209af1",
+              "file": "typescript/13_grouping_test.spec.ts",
+              "line": 5,
+              "column": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "typescript\\14_tag_test.spec.ts",
+      "file": "typescript/14_tag_test.spec.ts",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Mock API from HAR in Playwright",
+          "title": "Test1",
           "ok": true,
-          "tags": [],
+          "tags": [
+            "SmokeTesting"
+          ],
           "tests": [
             {
               "timeout": 30000,
@@ -90,30 +158,30 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 3,
-                  "parallelIndex": 0,
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
                   "status": "passed",
-                  "duration": 2182,
+                  "duration": 1899,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2025-05-05T07:57:18.930Z",
+                  "startTime": "2025-05-05T10:41:32.903Z",
                   "attachments": [
                     {
                       "name": "screenshot",
                       "contentType": "image/png",
-                      "path": "C:\\Users\\hp\\Documents\\Playwright\\test-results\\typescript-42_Mock_From_HA-1af7f--API-from-HAR-in-Playwright-chromium\\test-finished-1.png"
+                      "path": "C:\\Users\\hp\\Documents\\Playwright\\test-results\\typescript-14_tag_test-Test1-chromium\\test-finished-1.png"
                     },
                     {
                       "name": "video",
                       "contentType": "video/webm",
-                      "path": "C:\\Users\\hp\\Documents\\Playwright\\test-results\\typescript-42_Mock_From_HA-1af7f--API-from-HAR-in-Playwright-chromium\\video.webm"
+                      "path": "C:\\Users\\hp\\Documents\\Playwright\\test-results\\typescript-14_tag_test-Test1-chromium\\video.webm"
                     },
                     {
                       "name": "trace",
                       "contentType": "application/zip",
-                      "path": "C:\\Users\\hp\\Documents\\Playwright\\test-results\\typescript-42_Mock_From_HA-1af7f--API-from-HAR-in-Playwright-chromium\\trace.zip"
+                      "path": "C:\\Users\\hp\\Documents\\Playwright\\test-results\\typescript-14_tag_test-Test1-chromium\\trace.zip"
                     }
                   ]
                 }
@@ -121,9 +189,112 @@
               "status": "expected"
             }
           ],
-          "id": "7774422b9f49db0b9dd6-2236ba14fff4b01476b3",
-          "file": "typescript/42_Mock_From_HAR_File.spec.ts",
-          "line": 3,
+          "id": "36dc1b1169e354b35701-69598e358046de04c029",
+          "file": "typescript/14_tag_test.spec.ts",
+          "line": 4,
+          "column": 5
+        },
+        {
+          "title": "Test2",
+          "ok": true,
+          "tags": [
+            "SmokeTesting",
+            "RegressionTesting"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 407,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-05-05T10:41:35.231Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\hp\\Documents\\Playwright\\test-results\\typescript-14_tag_test-Test2-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\hp\\Documents\\Playwright\\test-results\\typescript-14_tag_test-Test2-chromium\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\hp\\Documents\\Playwright\\test-results\\typescript-14_tag_test-Test2-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "36dc1b1169e354b35701-63e00d019abc7012dd29",
+          "file": "typescript/14_tag_test.spec.ts",
+          "line": 9,
+          "column": 5
+        },
+        {
+          "title": "Test3",
+          "ok": true,
+          "tags": [
+            "SmokeTesting"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "parallelIndex": 1,
+                  "status": "passed",
+                  "duration": 391,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2025-05-05T10:41:35.228Z",
+                  "attachments": [
+                    {
+                      "name": "screenshot",
+                      "contentType": "image/png",
+                      "path": "C:\\Users\\hp\\Documents\\Playwright\\test-results\\typescript-14_tag_test-Test3-chromium\\test-finished-1.png"
+                    },
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "C:\\Users\\hp\\Documents\\Playwright\\test-results\\typescript-14_tag_test-Test3-chromium\\video.webm"
+                    },
+                    {
+                      "name": "trace",
+                      "contentType": "application/zip",
+                      "path": "C:\\Users\\hp\\Documents\\Playwright\\test-results\\typescript-14_tag_test-Test3-chromium\\trace.zip"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "36dc1b1169e354b35701-a0916f7559968030a4fc",
+          "file": "typescript/14_tag_test.spec.ts",
+          "line": 14,
           "column": 5
         }
       ]
@@ -131,9 +302,9 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2025-05-05T07:57:13.558Z",
-    "duration": 9284.236000000034,
-    "expected": 1,
+    "startTime": "2025-05-05T10:41:30.254Z",
+    "duration": 5880.527,
+    "expected": 4,
     "skipped": 0,
     "unexpected": 0,
     "flaky": 0
