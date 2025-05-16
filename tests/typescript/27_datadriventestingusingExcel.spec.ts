@@ -2,7 +2,7 @@ import {test, expect} from '@playwright/test'
 import path from 'path'
 import { readExcelFile } from '../../src/utils/ExcelHelper'
 
-const filePath = path.join(__dirname,'../../test-data/QA/testdata.xlsx')
+const filePath = path.join(__dirname,'../../test-data/qa/testdata.xlsx')
 
 const records = readExcelFile(filePath)
 
