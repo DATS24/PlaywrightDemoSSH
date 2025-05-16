@@ -9,7 +9,7 @@ type TestRecords = {
 }
 
 const records = parse(
-    fs.readFileSync(path.join(__dirname,'../../test-data/QA/testdata.csv')),
+    fs.readFileSync(path.join(__dirname,'../../test-data/qa/testdata.csv')),
     {
         columns : true,
         skipEmptyLines : true
